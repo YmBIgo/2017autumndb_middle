@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Stock and News Data</title>
+</head>
+<body>
+        <h1>Search News</h1>
+        <form action="get_news.cgi" method="POST">
+                <p>KEYWORD   : <input type="text" name="keyword" size="20"></p>
+                <p>COMPANY   : <select name="company">
+                        <option value="1" selected>oracle</option>
+                        <option value="2">apple</option>
+                        <option value="3">accenture</option>
+                </select></p>
+                <p>STARTDATE : <input type="text" name="start_date"></p>
+                <p>ENDDATE   : <input type="text" name="end_date"></p>
+                <p><input type="submit"></p>
+        </form>
+        <hr>
+        <h1>Search Stock</h1>
+        <form action="get_stock.cgi" method="POST">
+                <p>COMPANY : <select name="company">
+                        <option value="1" selected>oracle</option>
+                        <option value="2">apple</option>
+                        <option value="3">accenture</option>
+                </select></p>
+                <p>STARTDATE : <input type="text" name="start_date"></p>
+                <p>ENDDATE : <input type="text" name="end_date"></p>
+                <p><input type="submit"></p>
+        </form>
+        <hr>
+</body>
+</html>

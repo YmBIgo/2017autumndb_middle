@@ -37,8 +37,7 @@ import csv
 # 	c_id integer,
 # 	n_image varchar(512),
 # 	n_url varchar(512),
-# 	timely_price integer default 0,
-# 	one_hour_price integer default 0,
+# 	day_price real default 0,
 # 	created_at date default CURRENT_DATE
 # );
 # -------------------------------------------
