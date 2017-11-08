@@ -125,7 +125,3 @@ sql_txt.write(stock_queries)
 sql_txt.close()
 
 
-
-
-
-
